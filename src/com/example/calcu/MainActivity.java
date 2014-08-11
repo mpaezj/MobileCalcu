@@ -171,6 +171,7 @@ public class MainActivity extends Activity implements OnClickListener {
 								opera();
 								UltOp="ninguna";
 								mente=Double.parseDouble(Campo.getText().toString());
+								ultimoPresionadoNumero = false;
 								
 							}else
 							{

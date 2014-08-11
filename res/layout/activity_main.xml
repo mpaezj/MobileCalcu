@@ -2,12 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical" 
+    android:weightSum="0.7">
 
     <EditText
         android:id="@+id/Campo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
         android:ems="10"
         android:focusable="false"
         android:focusableInTouchMode="false"
@@ -18,14 +20,16 @@
 
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
         android:layout_margin="5dp"
         android:stretchColumns="0,1,2" >
 
         <TableRow
             android:id="@+id/tableRow1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
+            android:layout_height="0dp" 
+            android:layout_weight="0.1">
             <Button
                 android:id="@+id/boton1"
                 android:layout_width="wrap_content"
@@ -48,7 +52,8 @@
         <TableRow
             android:id="@+id/tableRow2"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
+            android:layout_height="0dp" 
+            android:layout_weight="0.1">
 	        <Button
                 android:id="@+id/boton4"
                 android:layout_width="wrap_content"
@@ -72,7 +77,8 @@
         <TableRow
             android:id="@+id/tableRow3"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
+            android:layout_height="0dp"
+            android:layout_weight="0.1" >
 	        <Button
                 android:id="@+id/boton7"
                 android:layout_width="wrap_content"
@@ -95,7 +101,8 @@
         <TableRow
             android:id="@+id/tableRow4"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
+            android:layout_height="0dp"
+            android:layout_weight="0.1" >
 	        <Button
                 android:id="@+id/boton0"
                 android:layout_width="wrap_content"
@@ -118,7 +125,8 @@
         <TableRow
             android:id="@+id/tableRow5"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
+            android:layout_height="0dp" 
+            android:layout_weight="0.1">
 	        
             <Button
                 android:id="@+id/botonIgual"
@@ -142,7 +150,8 @@
         <TableRow
             android:id="@+id/tableRow6"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
+            android:layout_height="0dp"
+            android:layout_weight="0.1" >
 	        <Button
                 android:id="@+id/botonMas_Menos"
                 android:layout_width="wrap_content"
